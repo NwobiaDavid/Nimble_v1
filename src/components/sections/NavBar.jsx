@@ -59,7 +59,7 @@ export default function NavBar() {
           className="p-3 hover:text-orange-600 transition-all duration-300 "
           href="http://"
         >
-         What's Nimble?
+         What&apos;s Nimble?
         </a>
         <a
           className="p-3 lg:ml-8 hover:text-orange-600 transition-all duration-300 "
