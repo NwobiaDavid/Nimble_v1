@@ -26,15 +26,15 @@ export default function PageFour() {
           <p>
             Our mission at Nimble is rooted in the belief that technology, at
             its best, should simplify, enhance, and connect lives. Through
-            tireless innovation and unwavering dedication, we're committed to
+            tireless innovation and unwavering dedication, we&apos;re committed to
             crafting an AI companion that understands and anticipates your
             unique desires. We strive to be the beacon of efficiency in a world
             inundated with complexities. Nimble aims to revolutionize the way
             you manage your time, communicate, and learn, all while prioritizing
-            your privacy and security. We're on a journey to create an intuitive
+            your privacy and security. We&apos;re on a journey to create an intuitive
             and empathetic AI that not only responds to your needs but also
             grows with you, becoming an indispensable part of your story.
-            Together, let's redefine what's possible in the digital realm.
+            Together, let&apos;s redefine what&apos;s possible in the digital realm.
           </p>
         </div>
       </div>
