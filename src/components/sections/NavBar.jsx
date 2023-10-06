@@ -76,7 +76,7 @@ export default function NavBar() {
       </div>
 
       <div className="text-md p-3 lg:mb-0 mb-7 hover:scale-105 duration-150 bg-black text-white rounded-md">
-        <a href="#">JOIN THE WAITLIST</a>
+        <a href="#">JOIN THE WAITLIST!</a>
       </div>
     </div>
   </div>

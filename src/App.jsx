@@ -12,12 +12,13 @@ function App() {
     <>
       <div>
       <NavBar />
-        hey
-       <HomePage />
-       <PageTwo />
-       <PageThree />
-       <PageFour />
-       <Contact />
+       <div className="px-10">
+         <HomePage />
+         <PageTwo />
+         <PageThree />
+         <PageFour />
+         <Contact />
+       </div>
        <Footer />
       </div>
     </>
