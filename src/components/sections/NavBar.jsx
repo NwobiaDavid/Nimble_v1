@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-scroll';
 
 export default function NavBar() {
 
@@ -15,9 +16,9 @@ export default function NavBar() {
     <div className='p-0 m-0 flex w-[100%] justify-around items-center lg:w-fit'>
         {/* Logo and Brand */}
         <div className="w-[45%] md:w-auto flex items-center justify-center">
-          <a className="font-bold p-3 text-2xl md:text-3xl" href='#'>
+          <Link className="font-bold cursor-pointer p-3 text-2xl md:text-3xl" to='home' spy={true} smooth={true} offset={-70} duration={300} >
           Nimble <span className='text-orange-600'>:)</span>
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Navigation */}
@@ -55,28 +56,28 @@ export default function NavBar() {
       } lg:flex-row lg:flex flex-col items-center lg:w-[50%] lg:justify-between justify-evenly`}
     >
       <div className="text-lg lg:text-base flex whitespace-nowrap lg:flex-row p-2 items-center flex-col">
-        <a
+        <Link
           className="p-3 hover:text-orange-600 transition-all duration-300 "
-          href="http://"
+          to='pagetwo' spy={true} smooth={true} offset={-70} duration={300}
         >
          What&apos;s Nimble?
-        </a>
-        <a
+        </Link>
+        <Link
           className="p-3 lg:ml-8 hover:text-orange-600 transition-all duration-300 "
-          href="http://"
+          to={'/x'}
         >
           What I Do
-        </a>
-        <a
+        </Link>
+        <Link
           className="p-3 lg:ml-8 hover:text-orange-600 transition-all duration-300 "
-          href="http://"
+          to={'/j'}
         >
           About
-        </a>
+        </Link>
       </div>
 
       <div className="text-md p-3 lg:mb-0 mb-7 hover:scale-105 duration-150 bg-black text-white rounded-md">
-        <a href="#">JOIN THE WAITLIST!</a>
+        <Link to={'/k'}>JOIN THE WAITLIST!</Link>
       </div>
     </div>
   </div>

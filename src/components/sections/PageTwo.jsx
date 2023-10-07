@@ -1,7 +1,7 @@
 
 export default function PageTwo() {
   return (
-    <div className="flex flex-col items-center justify-center h-[680px]  ">
+    <div id="pagetwo" className="flex flex-col items-center justify-center h-[680px]  ">
       <div className="flex p-3 border border-black w-[23%] items-center justify-center rounded-md text-3xl font-semibold ">
         <h2>What is Nimble?</h2>
       </div>
