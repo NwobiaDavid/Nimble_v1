@@ -15,6 +15,7 @@ export default function NavBar() {
 
     <div className='p-0 m-0 flex w-[100%] justify-around items-center lg:w-fit'>
         {/* Logo and Brand */}
+        {/* TODO: make the navbar fixed. */}
         <div className="w-[45%] md:w-auto flex items-center justify-center">
           <Link className="font-bold cursor-pointer p-3 text-2xl md:text-3xl" to='home' spy={true} smooth={true} offset={-70} duration={300} >
           Nimble <span className='text-orange-600'>:)</span>
@@ -55,29 +56,29 @@ export default function NavBar() {
         isMenuOpen ? 'flex' : 'hidden'
       } lg:flex-row lg:flex flex-col items-center lg:w-[50%] lg:justify-between justify-evenly`}
     >
-      <div className="text-lg lg:text-base flex whitespace-nowrap lg:flex-row p-2 items-center flex-col">
+      <div className="text-lg lg:text-lg font-semibold flex whitespace-nowrap lg:flex-row p-2 items-center flex-col">
         <Link
-          className="p-3 hover:text-orange-600 transition-all duration-300 "
+          className="p-3 lowercase cursor-pointer hover:text-orange-600 transition-all duration-300 "
           to='pagetwo' spy={true} smooth={true} offset={-70} duration={300}
         >
          What&apos;s Nimble?
         </Link>
         <Link
-          className="p-3 lg:ml-8 hover:text-orange-600 transition-all duration-300 "
+          className="p-3 lowercase cursor-pointer lg:ml-8 hover:text-orange-600 transition-all duration-300 "
           to={'/x'}
         >
-          What I Do
+          what do we do
         </Link>
         <Link
-          className="p-3 lg:ml-8 hover:text-orange-600 transition-all duration-300 "
+          className="p-3 lowercase cursor-pointer lg:ml-8 hover:text-orange-600 transition-all duration-300 "
           to={'/j'}
         >
           About
         </Link>
       </div>
 
-      <div className="text-md p-3 lg:mb-0 mb-7 hover:scale-105 duration-150 bg-black text-white rounded-md">
-        <Link to={'/k'}>JOIN THE WAITLIST!</Link>
+      <div className="text-md capitalize p-3 lg:mb-0 mb-7 w-[20%] text-center hover:scale-105 duration-150 bg-black text-white rounded-md">
+        <Link to={'/k'}>Join the waitlist!</Link>
       </div>
     </div>
   </div>

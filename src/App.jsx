@@ -1,4 +1,4 @@
-
+import './index.css';
 import Contact from './components/sections/Contact';
 import Footer from './components/sections/Footer';
 import HomePage from './components/sections/HomePage';
