@@ -40,7 +40,7 @@ export default function Features() {
   ];
   return (
     <div className="h-[300px] font-nunito mt-10 py-8 flex justify-center items-center ">
-      <ul className="w-full grid gap-6 grid-cols-3 justify-around">
+      <ul className="w-full grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around">
         {features.map((item) => (
           <li key={item.header} className="flex py-5 px-3 shadow-lg rounded-lg">
             <div className="pr-1">

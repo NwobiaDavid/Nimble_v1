@@ -7,6 +7,7 @@ import PageFour from './components/sections/PageFour';
 import PageThree from './components/sections/PageThree';
 import PageTwo from './components/sections/PageTwo';
 import Features from './components/sections/Features';
+import One from './components/sections/solutions/One';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
        <div className="px-10 py-20">
          <HomePage />
          <Features />
+         <One/>
          <PageTwo />
          <PageThree />
          <PageFour />
