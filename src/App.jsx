@@ -8,6 +8,7 @@ import PageThree from './components/sections/PageThree';
 import PageTwo from './components/sections/PageTwo';
 import Features from './components/sections/Features';
 import One from './components/sections/solutions/One';
+import Two from './components/sections/solutions/Two';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
        <div className="px-10 py-20">
          <HomePage />
          <Features />
-         <One/>
+         <div className='h-[1080px] py-10 flex flex-col justify-evenly'><One/> <Two/> </div>
          <PageTwo />
          <PageThree />
          <PageFour />
