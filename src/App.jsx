@@ -6,14 +6,16 @@ import NavBar from './components/sections/NavBar';
 import PageFour from './components/sections/PageFour';
 import PageThree from './components/sections/PageThree';
 import PageTwo from './components/sections/PageTwo';
+import Features from './components/sections/Features';
 
 function App() {
   return (
     <>
       <div>
       <NavBar />
-       <div className="px-10">
+       <div className="px-10 py-20">
          <HomePage />
+         <Features />
          <PageTwo />
          <PageThree />
          <PageFour />

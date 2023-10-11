@@ -11,7 +11,7 @@ export default function NavBar() {
 
 
   return (
-    <div className="flex lg:flex-row flex-col p-1 my-0 items-center justify-center md:justify-evenly shadow-md">
+    <div className="flex fixed w-full  lg:flex-row flex-col p-1 my-0 items-center justify-center md:justify-evenly shadow-md">
 
     <div className='p-0 m-0 flex w-[100%] justify-around items-center lg:w-fit'>
         {/* Logo and Brand */}
@@ -77,8 +77,8 @@ export default function NavBar() {
         </Link>
       </div>
 
-      <div className="text-md capitalize p-3 lg:mb-0 mb-7 w-[20%] text-center hover:scale-105 duration-150 bg-black text-white rounded-md">
-        <Link to={'/k'}>Join the waitlist!</Link>
+      <div className="text-md capitalize cursor-pointer p-3 lg:mb-0 mb-7 w-[20%] text-center hover:scale-105 duration-150 bg-black text-white rounded-md">
+        <Link to={'/k'}>Sign up!</Link>
       </div>
     </div>
   </div>
