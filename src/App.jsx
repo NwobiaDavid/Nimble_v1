@@ -10,7 +10,18 @@ import Features from './components/sections/Features';
 import One from './components/sections/solutions/One';
 import Two from './components/sections/solutions/Two';
 
+import {useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, [])
+
+
   return (
     <>
       <div>
@@ -19,7 +30,9 @@ function App() {
          <HomePage />
          <Features />
          <div className='h-[1080px] py-10 flex flex-col justify-evenly'><One/> <Two/> </div>
-         <PageTwo />
+         <div data-aos="fade-up">
+           <PageTwo />
+         </div>
          <PageThree />
          <PageFour />
          <Contact />
