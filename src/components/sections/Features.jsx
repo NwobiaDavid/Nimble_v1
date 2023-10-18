@@ -1,23 +1,34 @@
 //solutions nimble is providing
+import {motion} from 'framer-motion'
 
 export default function Features() {
-//   const solutions = [
-//     {
-//       image: 'https://ssss.com',
-//       header: 'Talk Like a Local',
-//       text: 'Nimbles "Talk Like a Local" feature immerses you in authentic conversations, guiding you to sound just like a native speaker. Practice, learn, and have fun mastering the nuances of a new language effortlessly',
-//     },
-//     {
-//       image: 'https://ssss.com',
-//       header: 'Level-Up Language Quests',
-//       text: 'Nimbles "Level-Up Language Quests" turn learning into an epic adventure. Achieve goals, earn rewards, and progress through challenging quests, making language learning a fun and rewarding experience',
-//     },
-//     {
-//       image: 'https://ssss.com',
-//       header: 'Personalized Chat Coach',
-//       text: 'Nimbles "Personalized Chat Coach" feature keeps track of your progress and tailors lessons to your unique needs. Its like having a personal language tutor who knows your strengths and challenges, guiding you toward fluency with personalized exercises and encouragement',
-//     },
-//   ];
+
+  const featuresVar = {
+    hidden: {
+      opacity: 0,
+      y: '-10vh'
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        type: "spring",
+        delay: 0.5,
+        staggerChildren: 0.4
+      }
+    }
+  }
+
+  const childrenVar = {
+    hidden: {
+      opacity: 0,
+      y: '-10vh'
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+    }
+  }
 
   const features = [
     {
@@ -40,9 +51,10 @@ export default function Features() {
   ];
   return (
     <div className="h-[300px] font-nunito mt-16 py-8 flex justify-center items-center ">
-      <ul className="w-full grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around">
+      <motion.ul variants={featuresVar} initial="hidden" animate="visible" className="w-full grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around">
         {features.map((item) => (
-          <li key={item.header} className="flex cursor-pointer py-5 px-3 shadow-lg rounded-lg">
+
+          <motion.div variants={childrenVar} key={item.header} className="flex cursor-pointer py-5 px-3 shadow-lg rounded-lg">
             <div className="pr-1">
               <img
                 className="w-[50px] bg-orange-500 h-[50px] "
@@ -54,9 +66,10 @@ export default function Features() {
               <h2 className="text-2xl py-2 font-bold ">{item.header}</h2>
               <p className="text-xl opacity-90 ">{item.text}</p>
             </div>
-          </li>
+          </motion.div>
+
         ))}
-      </ul>
+      </motion.ul>
     </div>
   );
 }

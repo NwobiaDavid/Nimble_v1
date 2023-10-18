@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+    <title>15. Discussion</title>
+    <g id="Layer_5" data-name="Layer 5">
+        <path d="M440.5,305.92V372.1A22.52,22.52,0,0,1,418,394.62H290.83l-43.7,34.59V394.62h-4.06a22.51,22.51,0,0,1-22.5-22.52V305.92a22.51,22.51,0,0,1,22.5-22.52H418A22.52,22.52,0,0,1,440.5,305.92Z" fill="#1a9af1"/>
+        <line x1="273.08" y1="324.18" x2="318.8" y2="324.18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+        <line x1="350.92" y1="324.18" x2="396.64" y2="324.18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+        <line x1="273.08" y1="355.07" x2="357.1" y2="355.07" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+        <path d="M42.16,90.57V160a23.63,23.63,0,0,0,23.62,23.62H199.19L245,219.93V183.64h4.26A23.62,23.62,0,0,0,272.91,160V90.57A23.62,23.62,0,0,0,249.3,67H65.78A23.63,23.63,0,0,0,42.16,90.57Z" fill="#F97316"/>
+        <line x1="93.83" y1="109.74" x2="141.8" y2="109.74" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+        <line x1="175.5" y1="109.74" x2="223.47" y2="109.74" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+        <line x1="93.83" y1="142.15" x2="181.98" y2="142.15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+        <path d="M157.38,336a41.29,41.29,0,0,1,41.22,41.31v33.9a31.19,31.19,0,0,1-31.19,31.18H79a31.21,31.21,0,0,1-31.36-31.06v-34A41.32,41.32,0,0,1,89,336H89" fill="#1A9AF1" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        
+        <circle cx="120.99" cy="297.37" r="28.32" fill="#1A9AF1" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <line x1="161.38" y1="376.32" x2="166.71" y2="442.41" fill="#1269ef" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <line x1="84.96" y1="376.32" x2="79.62" y2="442.41" fill="#1269ef" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <path d="M429.39,131.36a35.9,35.9,0,0,1,35.85,35.93v29.5a27.13,27.13,0,0,1-27.13,27.13H361.2a27.16,27.16,0,0,1-27.29-27v-29.6a35.93,35.93,0,0,1,35.93-35.93h.08" fill="#F97316" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        
+        <circle cx="397.72" cy="97.73" r="24.64" fill="#F97316" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <line x1="432.86" y1="166.42" x2="437.5" y2="223.92" fill="#1269ef" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <line x1="366.37" y1="166.42" x2="361.73" y2="223.92" fill="#1269ef" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+    </g>
+    <g id="Layer_7" data-name="Layer 7">
+        <path d="M418.23,283.59H243.31a22.5,22.5,0,0,0-22.5,22.51v66.19a22.5,22.5,0,0,0,22.5,22.51h4.06v34.59l43.7-34.59H418.23a22.51,22.51,0,0,0,22.51-22.51V323.11" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <line x1="273.32" y1="324.37" x2="319.04" y2="324.37" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <line x1="351.16" y1="324.37" x2="396.88" y2="324.37" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <line x1="273.32" y1="355.26" x2="357.34" y2="355.26" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <path d="M266.81,74.66a23.52,23.52,0,0,0-17.27-7.52H66A23.63,23.63,0,0,0,42.4,90.76V160.2A23.63,23.63,0,0,0,66,183.82H199.44l45.84,36.3v-36.3h4.26a23.62,23.62,0,0,0,23.61-23.62V111.38" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <line x1="94.07" y1="109.93" x2="142.04" y2="109.93" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <line x1="175.74" y1="109.93" x2="223.71" y2="109.93" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <line x1="94.07" y1="142.34" x2="182.22" y2="142.34" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <path d="M157.62,336.21a41.28,41.28,0,0,1,41.22,41.31v33.89a31.19,31.19,0,0,1-31.19,31.19H79.25a31.21,31.21,0,0,1-31.36-31.06v-34a41.3,41.3,0,0,1,41.3-41.31h.09" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <circle cx="121.23" cy="297.56" r="28.32" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <line x1="161.62" y1="376.51" x2="166.95" y2="442.6" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <line x1="85.2" y1="376.51" x2="79.86" y2="442.6" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <path d="M429.63,131.54a35.91,35.91,0,0,1,35.85,35.94V197a27.13,27.13,0,0,1-27.13,27.14H361.44a27.16,27.16,0,0,1-27.29-27v-29.6a35.94,35.94,0,0,1,35.93-35.94h.08" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <circle cx="397.96" cy="97.91" r="24.64" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <line x1="433.1" y1="166.61" x2="437.74" y2="224.11" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+        <line x1="366.61" y1="166.61" x2="361.97" y2="224.11" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.01"/>
+    </g>
+</svg>

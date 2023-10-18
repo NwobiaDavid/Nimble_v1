@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function Two() {
   return (
-    <div className="w-full my-5 flex justify-end items-center">
+    <div data-aos="fade-leftP" className="w-full my-5 flex justify-end items-center">
       <motion.div className="flex duration-100 p-4 w-[70%] cursor-pointer rounded-xl hover:shadow-xl border border-gray-600">
         <div className="w-[70%] text-right">
           <h1 className="text-6xl font-semibold py-3">

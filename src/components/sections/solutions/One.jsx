@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function One() {
   return (
-    <div className="w-full my-5 flex items-center">
+    <div data-aos="fade-right" className="w-full my-5 flex items-center">
       <motion.div className="flex duration-150 hover:shadow-lg cursor-pointer p-4 w-[70%] rounded-xl border border-gray-600">
       
         <div className="w-[30%] mr-5 bg-orange-500 ">
