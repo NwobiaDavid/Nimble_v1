@@ -56,6 +56,9 @@ export default function HomePage() {
         <img className="max-w-full max-h-full " src={bg_img} alt="" />
         </div>
       </div>
+      <div className="bg-red-500">
+    <h1>testing area</h1>
+      </div>
     </div>
   )
 }
