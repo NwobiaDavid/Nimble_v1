@@ -28,7 +28,7 @@ function App() {
         <div className="px-10 py-20">
           <HomePage />
           <Features />
-          <div className="h-[1200px] py-10 pt-16 flex flex-col items-center justify-evenly">
+          <div className="h-[1200px] py-10 pt-16 flex flex-col items-center overflow-hidden justify-evenly">
           <div data-aos="fade-up" className='text-2xl mt-20 mb-3 w-[20%] border rounded-xl border-black uppercase p-3 font-bold text-center font-nunito '>nimble&rsquo;s features</div>
             <One /> <Two /> <Three />
           </div>

@@ -33,7 +33,7 @@ export default function HomePage() {
   };
 
   return (
-    <div id="home" className=" mt-3 h-[600px] " >
+    <div id="home" className=" mt-3 h-[600px]  " >
       <div  className="  flex items-center h-full justify-center font-nunito ">
 
         <motion.div  variants={containerVariant} initial="hidden" animate="visible" className="w-[50%] pr-2">
@@ -56,8 +56,28 @@ export default function HomePage() {
         <img className="max-w-full max-h-full " src={bg_img} alt="" />
         </div>
       </div>
-      <div className="bg-red-500">
-    <h1>testing area</h1>
+      <div className="h-[400px] flex justify-center  ">
+      <motion.div
+        className="w-4 h-4 bg-orange-500 rounded-full mt-4"
+        initial={{ y: '-20px' }} 
+        animate={{ y: 0 }} 
+        transition={{
+          type: 'spring',
+          repeat: Infinity, 
+          repeatType: 'reverse'
+        }}
+      ></motion.div>
+      <motion.div
+        className="w-4 ml-2 h-4 bg-blue-500 rounded-full mt-4"
+        initial={{ y: '-20px' }} 
+        animate={{ y: 0 }} 
+        transition={{
+          type: 'spring',
+          repeat: Infinity, 
+          delay: 0.2,
+          repeatType: 'reverse'
+        }}
+      ></motion.div>
       </div>
     </div>
   )
