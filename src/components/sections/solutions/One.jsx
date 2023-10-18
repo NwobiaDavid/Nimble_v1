@@ -11,7 +11,7 @@ export default function One() {
 
         <div className="w-[70%] ">
           <h1 className="text-6xl font-semibold py-3">Talk Like a Local</h1>
-          <p className="text-3xl py-2">
+          <p className="text-3xl py-5">
             Nimble&apos;s &ldquo;Talk Like a Local&rdquo; feature immerses you
             in authentic conversations, guiding you to sound just like a native
             speaker. Practice, learn, and have fun mastering the nuances of a

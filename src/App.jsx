@@ -13,6 +13,7 @@ import Two from './components/sections/solutions/Two';
 import {useEffect} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Three from './components/sections/solutions/Three';
 
 function App() {
 
@@ -29,7 +30,7 @@ function App() {
        <div className="px-10 py-20">
          <HomePage />
          <Features />
-         <div className='h-[1080px] py-10 flex flex-col justify-evenly'><One/> <Two/> </div>
+         <div className='h-[1080px] py-10 flex flex-col justify-evenly'><One/> <Two/> <Three /> </div>
          <div data-aos="fade-up">
            <PageTwo />
          </div>
