@@ -71,7 +71,7 @@ export default function Features() {
   }, []);
 
   return (
-    <div ref={featuresRef} className="h-[300px] font-nunito mt-16 py-8 flex justify-center items-center">
+    <div ref={featuresRef} className="lg:h-[300px] font-nunito mt-16 py-8 flex justify-center items-center">
       <motion.ul
         variants={featuresVar}
         initial="hidden"
@@ -80,10 +80,10 @@ export default function Features() {
       >
         {features.map((item) => (
           <motion.div whileHover={{scale: 1.05}} variants={childrenVar} key={item.header} className="flex cursor-pointer py-5 px-3 shadow-lg rounded-lg">
-            <div className="flex flex-col  ">
-              <div className="flex justify-between h-[40%] ">
-                <div className='w-[20%] h-[100%] flex justify-center items-center mr-1'><img className="w-full p-4 object-cover h-full " src={item.image} alt={item.header} /></div>
-                <h2 className="text-2xl w-[80%] py-2 font-bold">{item.header}</h2>
+            <div className="flex flex-col text-center lg:text-left ">
+              <div className="flex lg:flex-row flex-col justify-between lg:h-[40%] ">
+                <div className='lg:w-[20%] w-[50%] h-[100%] flex justify-center items-center lg:mr-1'><img className="w-full p-4 object-cover h-full " src={item.image} alt={item.header} /></div>
+                <h2 className=" text-xl lg:text-2xl lg:w-[80%] py-2 font-bold">{item.header}</h2>
               </div>
               
                 <p className="text-lg opacity-90">{item.text}</p>
