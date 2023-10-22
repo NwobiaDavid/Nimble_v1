@@ -14,6 +14,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Three from './components/sections/solutions/Three';
+import Faq from './components/sections/Faq';
 
 function App() {
   useEffect(() => {
@@ -32,11 +33,7 @@ function App() {
           <div data-aos="fade-up" className='text-2xl mt-20 mb-3 w-[20%] border rounded-xl border-black uppercase p-3 font-bold text-center font-nunito '>nimble&rsquo;s features</div>
             <One /> <Two /> <Three />
           </div>
-          <div data-aos="fade-up">
-            <PageTwo />
-          </div>
-          <PageThree />
-          <PageFour />
+          <Faq />
           <Contact />
         </div>
         <Footer />
