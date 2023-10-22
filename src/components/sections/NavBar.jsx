@@ -100,7 +100,7 @@ export default function NavBar() {
         </Link>
       </div>
 
-      <div className="text-md capitalize cursor-pointer p-3 lg:mb-0 mb-7 w-[20%] text-center hover:scale-105 duration-150 bg-orange-500 hover:bg-orange-600 text-white rounded-md">
+      <div className="text-md capitalize cursor-pointer p-3 lg:mb-0 mb-7 w-full lg:w-[20%] text-center hover:scale-105 duration-150 bg-orange-500 hover:bg-orange-600 text-white rounded-md">
         <Link to={'/k'}>Sign up!</Link>
       </div>
     </div>

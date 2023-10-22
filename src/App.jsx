@@ -25,7 +25,7 @@ function App() {
     <>
       <div>
         <NavBar />
-        <div className="px-10 py-20">
+        <div className="lg:px-10 px-5 py-20">
           <HomePage />
           <Features />
           <div className="h-[1200px] py-10 pt-16 flex flex-col items-center overflow-hidden justify-evenly">

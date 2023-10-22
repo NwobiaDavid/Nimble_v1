@@ -33,30 +33,35 @@ export default function HomePage() {
   };
 
   return (
-    <div id="home" className=" mt-3 h-[600px]  " >
-      <div  className="  flex items-center h-full justify-center font-nunito ">
+    <div id="home" className=" mt-3 lg:h-[600px] h-[650px] " >
 
-        <motion.div  variants={containerVariant} initial="hidden" animate="visible" className="w-[50%] pr-2">
+      <div  className="  flex flex-col lg:flex-row items-center h-full justify-center font-nunito ">
 
-          <motion.div variants={childVariants} className="mb-5 flex text-left justify-center flex-col">
-            <h2 className="text-8xl  mb-2 font-semibold" >Learn a Language <span className="text-orange-500 font-bold ">2x Faster</span> with Generative AI</h2>
-            <p className="text-xl opacity-70">Nimble is your Personal Language Tutor that&apos;s with you 24/7, teaches you a Language Faster to a state of Proficiency with less Time and Cost <span className="text-orange-500 cursor-pointer">learn more</span> </p>
+        <motion.div  variants={containerVariant} initial="hidden" animate="visible" className="lg:w-[50%] lg:pr-2">
+
+          <motion.div variants={childVariants} className="mb-5 flex text-center lg:text-left justify-center flex-col">
+            <h2 className="lg:text-8xl text-4xl mb-2 font-semibold" >Learn a Language <span className="text-orange-500 font-bold ">2x Faster</span> with Generative AI</h2>
+            <p className="lg:text-xl text-base opacity-70">Nimble is your Personal Language Tutor that&apos;s with you 24/7, teaches you a Language Faster to a state of Proficiency with less Time and Cost <span className="text-orange-500 cursor-pointer">learn more</span> </p>
           </motion.div>
 
-          <motion.div variants={childVariants} className="flex items-center">
-            <Link to="/contact" className="w-[20%]" >
-            <button className=" w-full duration-200 font-semibold py-2 border-2 border-black rounded-lg hover:border-transparent hover:bg-black hover:text-white">Sign up</button>
+          <motion.div variants={childVariants} className="flex flex-col lg:flex-row items-center">
+            <Link to="/contact" className="lg:w-[20%] w-full " >
+            <button className=" w-full duration-200 font-semibold py-2 border-2  justify-self-center border-black rounded-lg hover:border-transparent hover:bg-black hover:text-white">Sign up</button>
             </Link>
-            <p className="text-sm ml-5 font-bold opacity-40 ">
-            Practicing with a native speaker like &ldquo;Nimble&rdquo; enables people to learn a new language 2x faster due to <br /> instant feedback, authentic input, and cultural immersion.</p>
+            <p className="text-sm leading-4 lg:leading-none lg:text-left text-center lg:ml-5 font-semibold lg:font-bold opacity-40 ">
+            Practicing with a native speaker like &ldquo;Nimble&rdquo; enables people to learn a new language 2x faster <br /> due to instant feedback, authentic input, and cultural immersion.</p>
           </motion.div>
       
           </motion.div>
-        <div className="w-[40%] flex justify-center h-full">
+
+        <div className="lg:w-[40%]  flex justify-center h-full">
         <img className="max-w-full max-h-full " src={bg_img} alt="" />
         </div>
+
       </div>
-      <div className="h-[400px] flex justify-center  ">
+
+
+      <div className="h-[400px] mt-5 flex justify-center  ">
       <motion.div
         className="w-4 h-4 bg-orange-500 rounded-full mt-4"
         initial={{ y: '-20px' }} 
