@@ -7,8 +7,8 @@ import { useInView } from 'react-intersection-observer';
 function AccordionItem({ title, content, isActive, onClick }) {
   const controls = useAnimation();
   const { ref, inView } = useInView({
-    triggerOnce: true, // The animation will trigger once when the element is in view
-    threshold: 0.5, // The element will start animating when 50% of it is visible
+    triggerOnce: true,
+    threshold: 0.5,
   });
 
   useEffect(() => {
@@ -33,7 +33,7 @@ function AccordionItem({ title, content, isActive, onClick }) {
       className="border-b-2 hover:border-orange-600"
     >
       <button
-        className="w-full font-bold flex py-6 text-3xl px-5 text-left focus:outline-none transition-transform ease-in"
+        className="w-full font-semibold lg:font-bold flex py-2 lg:py-6 text-xl lg:text-3xl px-2 lg:px-5 text-left focus:outline-none transition-transform ease-in"
         onClick={onClick}
       >
         {title}
@@ -45,16 +45,8 @@ function AccordionItem({ title, content, isActive, onClick }) {
           <FiChevronDown />
         </motion.span>
       </button>
-      <div style={contentStyles} className="">
-        <ul>
-          {Array.isArray(content) ? (
-            <ul>
-              <li>{content}</li>
-            </ul>
-          ) : (
-            <p className='text-xl indent-2'>{content}</p>
-          )}
-        </ul>
+      <div style={contentStyles}>
+        <p className="text-lg lg:text-xl indent-2">{content}</p>
       </div>
     </motion.div>
   );
@@ -62,22 +54,22 @@ function AccordionItem({ title, content, isActive, onClick }) {
 
 AccordionItem.propTypes = {
   title: PropTypes.string.isRequired,
-  content: PropTypes.array.isRequired,
+  content: PropTypes.string.isRequired,
   isActive: PropTypes.bool.isRequired,
   onClick: PropTypes.func.isRequired,
 };
 
 function Accordion({ items }) {
-  const [activeIndex, setActiveIndex] = useState(-1);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const toggleAccordion = (index) => {
-    setActiveIndex(prevIndex => (index === prevIndex ? -1 : index));
+    setActiveIndex((prevIndex) => (index === prevIndex ? -1 : index));
   };
 
   const controls = useAnimation();
 
   useEffect(() => {
-    controls.start(i => ({
+    controls.start((i) => ({
       opacity: 1,
       y: 0,
       transition: {
@@ -90,12 +82,7 @@ function Accordion({ items }) {
   return (
     <div>
       {items.map((item, index) => (
-        <motion.div
-          key={index}
-          initial={{ opacity: 0, y: '-10vh' }}
-          animate={controls}
-          custom={index}
-        >
+        <motion.div key={index} initial={{ opacity: 0, y: '-10vh' }} animate={controls} custom={index}>
           <AccordionItem
             title={item.title}
             content={item.content}

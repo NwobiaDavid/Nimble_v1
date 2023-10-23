@@ -4,8 +4,7 @@ export default function Faq() {
   const accordionItems = [
     {
       title: 'What makes Nimble different from other language learning apps?',
-      content:
-        'Nimble stands out with its immersive, real-time conversations that prioritize speaking and pronunciation practice. Unlike other platforms, Nimble offers extensive speaking exercises, clear cultural insights, and personalized tutoring. We focus on understanding the language, not just translating, ensuring authentic and effective communication.',
+      content: 'Nimble stands out with its immersive, real-time conversations that prioritize speaking and pronunciation practice. Unlike other platforms, Nimble offers extensive speaking exercises, clear cultural insights, and personalized tutoring. We focus on understanding the language, not just translating, ensuring authentic and effective communication.',
     },
     {
       title: 'How does Nimble help with cultural understanding?',
@@ -24,12 +23,13 @@ export default function Faq() {
       content: "Yes! Nimble encourages authentic conversations with native speakers. Through our immersive lessons and interactive exercises, you'll develop the confidence to communicate effectively. Nimble bridges the gap between language learners and native speakers, fostering genuine connections and enhancing your language skills.",
     },
   ];
+
   return (
-   <div className='flex items-center mt-10 flex-col h-[600px]  font-nunito '>
-    <div data-aos="fade-up" className='w-[20%] flex justify-center items-center p-3 border rounded-xl border-black'>
-        <h2 className='text-2xl items-center   uppercase  font-bold'>FAQ&apos;s</h2>
+   <div className='flex items-center mt-10 flex-col font-nunito '>
+    <div data-aos="fade-up" className='lg:w-[20%] w-[90%] flex justify-center items-center p-3 border rounded-xl border-black'>
+        <h2 className='text-2xl items-center uppercase  font-bold'>FAQ&apos;s</h2>
     </div>
-    <div className="flex items-center py-24 overflow-hidden justify-center w-[70%] ">
+    <div className="flex items-start py-6 lg:py-16 overflow-hidden justify-center h-full w-full lg:w-[70%] ">
           <Accordion items={accordionItems} />
     </div>
     </div>

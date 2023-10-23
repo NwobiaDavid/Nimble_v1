@@ -28,18 +28,18 @@ const Form = () => {
   };
 
   return (
-    <form onSubmit={onSubmit} className='relative flex justify-center items-center'>
-    <div className='relative focus-within:w-[54%] duration-200 w-[40%]'>
+    <form onSubmit={onSubmit} className='relative my-2 flex justify-center items-center'>
+    <div className='relative focus-within:w-[90%] duration-200 w-[70%] lg:w-[40%]'>
       <input
         type="email"
         placeholder="Enter your email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        className='py-3 px-4 text-4xl rounded-full outline-none w-full'
+        className=' py-1 lg:py-3 px-2 lg:px-4 text-lg lg:text-4xl rounded-full outline-none w-full'
       />
       <button
         type="submit"
-        className='absolute top-0 right-0 m-2 p-3 bg-black w-[20%] hover:scale-105 duration-200 text-white rounded-full'
+        className='absolute top-0 right-0 m-[2px] lg:m-2 p-1 lg:p-3 bg-black w-[30%] lg:w-[20%] hover:scale-105 duration-200 text-white rounded-full'
       >
         Submit
       </button>
