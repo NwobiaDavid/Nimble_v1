@@ -82,21 +82,21 @@ export default function NavBar() {
       <div className="text-lg lg:text-lg font-semibold flex whitespace-nowrap lg:flex-row p-2 items-center flex-col">
         <Link
           className="p-3 lowercase cursor-pointer hover:text-orange-600 transition-all duration-300 "
-          to='pagetwo' spy={true} smooth={true} offset={-70} duration={300}
+          to='problems' spy={true} smooth={true} offset={-70} duration={300}
         >
-         What&apos;s Nimble?
+        problems
         </Link>
         <Link
           className="p-3 lowercase cursor-pointer lg:ml-8 hover:text-orange-600 transition-all duration-300 "
-          to={'/x'}
+          to='solutions' spy={true} smooth={true} offset={-70} duration={300}
         >
-          what do we do
+          Nimble&apos;s solution
         </Link>
         <Link
-          className="p-3 lowercase cursor-pointer lg:ml-8 hover:text-orange-600 transition-all duration-300 "
-          to={'/j'}
+          className="p-3 cursor-pointer lg:ml-8 hover:text-orange-600 transition-all duration-300 "
+          to='faqs' spy={true} smooth={true} offset={-70} duration={300}
         >
-          About
+          FAQ&apos;s
         </Link>
       </div>
 

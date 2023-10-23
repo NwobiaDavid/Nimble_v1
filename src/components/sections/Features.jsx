@@ -71,7 +71,7 @@ export default function Features() {
   }, []);
 
   return (
-    <div ref={featuresRef} className="lg:h-[300px] font-nunito mt-16 py-8 flex justify-center items-center">
+    <div id="problems" ref={featuresRef} className="lg:h-[300px] font-nunito mt-16 py-8 flex justify-center items-center">
       <motion.ul
         variants={featuresVar}
         initial="hidden"

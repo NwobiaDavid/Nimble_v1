@@ -25,7 +25,7 @@ export default function Faq() {
   ];
 
   return (
-   <div className='flex items-center mt-10 flex-col font-nunito '>
+   <div id='faqs' className='flex items-center mt-10 flex-col font-nunito '>
     <div data-aos="fade-up" className='lg:w-[20%] w-[90%] flex justify-center items-center p-3 border rounded-xl border-black'>
         <h2 className='text-2xl items-center uppercase  font-bold'>FAQ&apos;s</h2>
     </div>
