@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import img from '../../../assets/features assets/4676105-200-removebg-preview.png'
 
 export default function Two() {
   return (
@@ -17,8 +18,8 @@ export default function Two() {
           </p>
         </div>
 
-        <div className="lg:w-[30%] w-full hidden lg:flex lg:ml-5 bg-orange-500 ">
-          <img src="#" alt="" />
+        <div className="lg:w-[30%] w-full hidden lg:flex lg:ml-5 ">
+          <img src={img} className='object-cover ' alt="" />
         </div>
 
       </motion.div>

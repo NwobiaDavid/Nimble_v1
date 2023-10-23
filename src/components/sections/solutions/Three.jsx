@@ -1,12 +1,13 @@
 import { motion } from 'framer-motion';
+import img from '../../../assets/features assets/download-removebg-preview (1).png'
 
 export default function Three() {
   return (
     <div data-aos="fade-right" className="w-full my-5 flex items-center">
       <motion.div className="flex lg:flex-row flex-col duration-150 hover:shadow-lg cursor-pointer p-4 lg:w-[70%] rounded-xl border border-gray-600">
         
-        <div className="lg:w-[30%]  hidden lg:flex w-full lg:mr-5 bg-orange-500 ">
-          <img src="#" alt="" />
+        <div className="lg:w-[30%]  hidden lg:flex w-full lg:mr-5 ">
+          <img className=' w-full h-full' src={img} alt="" />
         </div>
 
         <div className="lg:w-[70%] w-full ">
